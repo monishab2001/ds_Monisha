@@ -23,7 +23,7 @@ The analysis proves that a "smarter strategy" is one that maintains a consistent
 
 To reproduce the findings in this project, follow these steps:
 
-1.  **Ensure all `.csv` files** are located inside the `csv_files/` directory.
+1.  **Ensure all `.csv` files** are located inside the `csv_files/` directory. (The csv files are compressed to .gz format due to large size)
 2.  **Open the `notebooks/notebook_1.ipynb` file** in a Jupyter environment (like Jupyter Lab, VS Code, or Google Colab).
 3.  **Run the notebook cells** sequentially from top to bottom.
     * The notebook will load the data from `csv_files/`.
